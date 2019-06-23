@@ -1,6 +1,6 @@
 # Ati-futok
 
-Küldök egy ábrát hogy miszerint kell szerintem ellenörizni, nekem igy kijöttek azok a Futo.Ki-k amik a lapon voltak
+Küldök egy ábrát hogy miszerint kell szerintem ellenörizni, nekem igy kijöttek azok a **Futo.Ki-k** amik a lapon voltak
 
 ![Színes leírás](./assets/szinek.png)
 
@@ -10,14 +10,14 @@ Emellett még ellenörzéskor ellenörizni is kell hogy a távolság 0 felett va
 
 ## Miért multidimenziós tömb
 
-[ hol tart, mennyit megy, hányadik futó ]
+`[ hol tart, mennyit megy, hányadik futó ]`
 
 Ha van változás és azután sorba rendezem tudni fogja hogy az adott sorból mennyit kell levennie és hogy ő eredetileg hányadik futó mert ahogy mutattam fontos tudni hogy hányadikként indult mert akik távolról beelöztek egy közelebbit csak akkor kell kiirni az időpontot
 
 ## Végeredmény
 
 | Időpontok  | Távolság | Ki elözőtt be kit | Szövegesen |
-|--------------|---------|----------|----------------------|--------------------------------|
+| --- | --- | --- | --- |
 | Időpont:  4  | 72 < 73 | 2. futó  <  4 . futó | ( 2. futó beelőzte a 4. futót) |
 | Időpont:  4  | 72 < 73 | 3. futó  <  4 . futó | ( 3. futó beelőzte a 4. futót) |
 | Időpont:  5  | 66 < 68 | 2. futó   <  3. futó | ( 2. futó beelőzte a 3. futót) |
