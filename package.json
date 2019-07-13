@@ -1,11 +1,20 @@
 {
   "name": "ati-futok",
   "version": "1.0.0",
-  "description": "Attila ismerőségenk prog1 feladata",
-  "main": "./src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Attila ismerősének prog1 feladata",
+  "author": {
+    "name": "Béla Kellner",
+    "email": "xentinus95@gmail.com",
+    "url": "https://github.com/Xentinus"
   },
-  "author": "Béla Kellner (Xentinus)",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "egyetem",
+    "attila",
+    "prog1"
+  ],
+  "main": "./src/index.js",
+  "engines": {
+    "node": ">=10.0.0"
+  }
 }
